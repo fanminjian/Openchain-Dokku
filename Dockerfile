@@ -12,5 +12,5 @@ RUN cd /tmp/openchain \
 
 WORKDIR /openchain
 
-EXPOSE 8080
+EXPOSE 80
 ENTRYPOINT ["dotnet", "openchain.dll"]
